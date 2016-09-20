@@ -1,0 +1,12 @@
+{
+    "name": "root/framework-php",
+    "authors": [
+        {
+            "name": "Pablo Lucas",
+            "email": "pablo.lucv@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "~1.0"
+    }
+}

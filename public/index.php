@@ -6,11 +6,17 @@
  * PHP version 5.6
  */
 
+/**
+ * Twig
+ */
+require_once dirname(__DIR__) . '/vendor/twig/twig/lib/Twig/Autoloader.php';
+Twig_Autoloader::register();
+
+
 
 /**
  * Autoloader
  */
-
 spl_autoload_register(function ($class) {
     $root = dirname(__DIR__); //get the parent directory
     $file = $root . '/' . str_replace('\\', '/', $class) . '.php';
