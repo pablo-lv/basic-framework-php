@@ -42,7 +42,7 @@ class Home extends \Core\Controller
         //     'colours' => ['red' , 'green' , 'blue']
         // ]);
         View::renderTemplate('Home/index.html', [
-            'name' => '<script>alert("hola")</script>',
+            'name' => 'Jane Doe',
             'colours' => ['red' , 'green' , 'blue']
         ]);
     }
